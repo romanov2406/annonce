@@ -1,0 +1,31 @@
+.announcement-item {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+
+  .info p {
+    padding-right: 40px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+      width: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+.btn.new {
+  margin-bottom: 20px;
+}
+
+.search {
+  margin-bottom: 20px;
+}
